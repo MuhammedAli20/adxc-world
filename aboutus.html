@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/customstyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <title>ABOUT US</title>
+</head>
+
+<body>
+  <!-- Desktop Header -->
+  <header id="desktop-head"
+    class="header bg-dark mt-2 d-flex align-items-center justify-content-between d-none d-md-flex d-lg-flex">
+    <div class="container header-container pb-1">
+
+      <!-- Left Navigation Links -->
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLeftContent"
+          aria-controls="navbarLeftContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLeftContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase active text-white" href="./aboutus.html">Our Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase text-white" href="./event.html" id="mainDropdown" role="button"
+                aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item text-uppercase text-center danger-text" href="https://tx7.com/ADXC"
+                    target="_blank">Watch Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item text-uppercase text-center danger-text" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item text-uppercase text-center danger-text" href="./methods.html">Methods of
+                        Victory</a>
+                    </li>
+                    <li><a class="dropdown-item text-uppercase text-center danger-text"
+                        href="./referring-judging.html">Referring
+                        and Judging</a></li>
+                    <li><a class="dropdown-item text-uppercase text-center danger-text"
+                        href="./judging-criteria.html">Judging
+                        Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+              <a class="nav-link text-uppercase text-white" href="./athletes.html">Athletes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Logo in the Center -->
+      <div class="logo-center mx-auto pt-2">
+        <a href="./index.html">
+          <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+        </a>
+      </div>
+
+      <!-- Right Navigation Links -->
+      <nav class="navbar navbar-expand-lg ms-auto">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarRightContent" aria-controls="navbarRightContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRightContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./joinus.html">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white"
+                href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-"
+                target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Mobile Header -->
+  <header id="mobile-head"
+    class="header mt-2 d-flex back-color align-items-center justify-content-between d-lg-none d-md-none">
+    <!-- Toggle Button on the right -->
+    <nav class="navbar navbar-expand-lg navbar-light w-100 pb-0">
+      <div class="container-fluid p-0">
+        <div class="me-auto pb-2 ps-4">
+          <a href="./index.html">
+            <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+          </a>
+        </div>
+        <button class="navbar-toggler pb-2 pe-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse back-back" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase active text-color ps-4" href="./aboutus.html">Our
+                Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./event.html" id="mainDropdown"
+                role="button" aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="https://tx7.com/ADXC"
+                    target="_blank">Watch
+                    Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./methods.html">Methods
+                        of Victory</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4"
+                        href="./referring-judging.html">Referring and Judging</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4"
+                        href="./judging-criteria.html">Judging Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./athletes.html">Athletes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./joinus.html">Join
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./contact.html">Contact
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4"
+                href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-"
+                target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- section start -->
+  <section class="back-image">
+    <div class="d-flex justify-content-center align-items-end" style="height: 80vh;">
+      <div class="mb-5">
+        <a href="#" class="read-more btn btn-danger text-center">OUR STORY</a>
+      </div>
+    </div>
+  </section>
+  <!-- section end -->
+  <div class="scroll-to-top" id="scrollToTop">↑</div>
+  <!-- section start -->
+  <section class="py-5">
+    <div class="container my-3">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <div>
+            <img class="img-fluid" src="./images/ring.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="heading-content">
+            <h2 class="text-uppercase fw-bold text-black">our <span class="danger-text">story</span></h2>
+            <p>Step into the world of ADXC, where the planet’s most formidable fighters unite in the vibrant core of Abu
+              Dhabi.</p>
+            <p>Imagine a single, electrifying cage where the grace of Judo, the force of Sumo, the technique of Sambo,
+              the elegance of Jiu-Jitsu, the power of Wrestling (both Freestyle and Greco-Roman), and the cunning of
+              Submission Grappling all collide in a dance of strength and skill.</p>
+            <p>ADXC isn’t just about competition; it’s a celebration of Abu Dhabi’s steadfast support for athletes. We
+              lead the charge with revolutionary martial arts concepts, spotlighting the city as a global sports titan
+              and an engine for international economic growth.
+
+              .</p>
+            <p>This isn’t merely a platform; it’s a launchpad for talent. Here, athletes and businesses come together,
+              exchanging wisdom and fueling the future of martial arts.
+
+            </p>
+            <p>ADXC revolutionizes the sport with inventive rules and unique concepts, delivering an unparalleled
+              spectacle.</p>
+            <p>Our captivating fight card format features exclusively invited athletes vying for prestigious titles and
+              glory. So join us in this unique story where legends are born and legacies are engraved in history.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- section end -->
+
+  <!-- section start -->
+  <section class="bg-dark py-5">
+    <div class="container">
+      <div class="disciplanes-rules">
+        <h2 class="text-uppercase text-center fw-bold text-white">UNDERSTANDING <span class="danger-text">adxc</span>
+        </h2>
+        <p class="text-white text-center">The game features elements from a variety of ancient fighting disciplines,
+          including</p>
+      </div>
+      <div class="rules d-flex flex flex-wrap justify-content-center">
+        <p class="text-white mx-3 fw-bold">Judo</p>
+        <p class="text-white mx-3 slashes fw-bold">Sumo</p>
+        <p class="text-white mx-3 slashes fw-bold">Sambo</p>
+        <p class="text-white mx-3 slashes fw-bold">Ju-Jitsu</p>
+        <p class="text-white mx-3 slashes fw-bold">Brazilian Jiu-Jitsu (BJJ)</p>
+        <p class="text-white mx-3 slashes text-center text-sm-start fw-bold">Wrestling Freestyle and Greco-Roman</p>
+        <p class="text-white mx-3 slashes fw-bold">Submission Grappling
+        </p>
+      </div>
+    </div>
+    <div class="experties">
+      <p class="text-center text-white">These diverse influences come together to create a rich and dynamic gaming
+        experience.</p>
+    </div>
+  </section>
+  <!-- section end -->
+
+  <!-- section start -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-md-5 winner-pic">
+          <div>
+            <img class="img-fluid" width="1024" height="1024" src="./images/Ffyon-Davies-ADXC-2-Winner-1024x1024-1.jpeg"
+              alt="">
+          </div>
+        </div>
+        <div class="col-md-6 my-md-5">
+          <div class="rule-heading-content pt-0 pb-5">
+            <h2 class="text-uppercase my-3 fw-bold danger-text">ruleset</h2>
+            <p>Bouts consist of: 3X3 minutes rounds for Prelims and Main Cards 5×3 minutes round for Main Event and Co
+              Main Event with 1 minute break in between.</p>
+            <p>The matches feature a dynamic format, with athletes winning via tap-out, verbal tap-out, referee stoppage
+              due to imminent danger or referee decision..</p>
+            <p>Athletes can attempt throws, takedowns, and both standing and ground submissions until one gives up or
+              the time limit is reached.</p>
+            <p>If no submission is achieved, the match is then judged using a 10-point must system similar to MMA.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- section end -->
+  <!-- footer start -->
+  <footer class="pt-5">
+    <div class="touch-border">
+      <a href="./contact.html" class="btn btn-danger text-center" data-aos="fade-up" data-aos-delay="300">GET <span
+          class="text-black">IN TOUCH</span></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="d-flex justify-content-center">
+            <a href="" class="text-white text-decoration-none"><span><i class="fa-regular fa-envelope-open"></i></span>
+              INFO@ADXCWORLD.COM</a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="icons d-flex justify-content-center">
+            <a href="https://www.youtube.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.x.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="bg-white danger-text"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="d-flex justify-content-center">
+            <div class="me-3">
+              <img class="img-fluid" src="./images/ADCB-3.png" alt="">
+            </div>
+            <div class="me-3">
+              <img class="img-fluid" src="./images/Screenshot-2024-07-24-at-4.38.13 PM.png" alt="">
+            </div>
+            <div class="">
+              <img class="img-fluid" src="./images/EXPERIENCE-ABU-DHABI-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mainDropdown = document.getElementById('mainDropdown');
+      var mainDropdownIcon = document.getElementById('mainDropdownIcon');
+      var subDropdown = document.getElementById('subDropdown');
+      var subDropdownIcon = document.getElementById('subDropdownIcon');
+
+      // Toggle the main dropdown menu when the icon is clicked
+      mainDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = mainDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the main "Events" text
+      mainDropdown.addEventListener('click', function (event) {
+        if (event.target !== mainDropdownIcon) {
+          // Allow navigation when clicking on the "Events" text
+          window.location.href = './event.html';
+        }
+      });
+
+      // Toggle the submenu dropdown when the icon is clicked
+      subDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = subDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the "ADXC Rules" text
+      subDropdown.addEventListener('click', function (event) {
+        if (event.target !== subDropdownIcon) {
+          // Allow navigation when clicking on the "ADXC Rules" text
+          window.location.href = './adxc-rules.html';
+        }
+      });
+
+      // Close the dropdown when clicking outside
+      document.addEventListener('click', function (event) {
+        var isClickInsideMain = mainDropdown.contains(event.target);
+        var mainDropdownMenu = mainDropdown.nextElementSibling;
+
+        if (!isClickInsideMain && mainDropdownMenu.classList.contains('show')) {
+          mainDropdownMenu.classList.remove('show');
+        }
+
+        var isClickInsideSub = subDropdown.contains(event.target);
+        var subDropdownMenu = subDropdown.nextElementSibling;
+
+        if (!isClickInsideSub && subDropdownMenu.classList.contains('show')) {
+          subDropdownMenu.classList.remove('show');
+        }
+      });
+    });
+    // CLICK EVENT SCRIPT END
+
+    // SCROLL BUTTON SCRIPT START
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    };
+
+    scrollToTopBtn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    // SCROLL BUTTON SCRIPT
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // duration: 1200,
+      // delay: 200,
+      // offset: 100,
+      // once: true, 
+    });
+  </script>
+</body>
+
+</html>

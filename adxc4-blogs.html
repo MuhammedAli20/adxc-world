@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="css/customstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <title>ADXC-4</title>
+</head>
+
+<body>
+  <!-- Desktop Header -->
+  <header id="desktop-head"
+    class="header bg-dark mt-2 d-flex align-items-center justify-content-between d-none d-md-flex d-lg-flex">
+    <div class="container header-container pb-1">
+
+      <!-- Left Navigation Links -->
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLeftContent"
+          aria-controls="navbarLeftContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLeftContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase  text-white" href="./aboutus.html">Our Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase text-white" href="./event.html" id="mainDropdown" role="button"
+                aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item text-uppercase text-center danger-text" href="https://tx7.com/ADXC" target="_blank">Watch Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item text-uppercase text-center danger-text" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item text-uppercase text-center danger-text" href="./methods.html">Methods of
+                        Victory</a>
+                    </li>
+                    <li><a class="dropdown-item text-uppercase text-center danger-text"
+                        href="./referring-judging.html">Referring
+                        and Judging</a></li>
+                    <li><a class="dropdown-item text-uppercase text-center danger-text"
+                        href="./judging-criteria.html">Judging
+                        Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./athletes.html">Athletes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Logo in the Center -->
+      <div class="logo-center mx-auto pt-2">
+        <a href="./index.html">
+          <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+        </a>
+      </div>
+
+      <!-- Right Navigation Links -->
+      <nav class="navbar navbar-expand-lg ms-auto">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarRightContent" aria-controls="navbarRightContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRightContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./joinus.html">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-" target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Mobile Header -->
+  <header id="mobile-head"
+    class="header mt-2 d-flex back-color align-items-center justify-content-between d-lg-none d-md-none">
+    <!-- Toggle Button on the right -->
+    <nav class="navbar navbar-expand-lg navbar-light w-100 pb-0">
+      <div class="container-fluid p-0">
+        <div class="me-auto pb-2 ps-4">
+          <a href="./index.html">
+            <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+          </a>
+        </div>
+        <button class="navbar-toggler pb-2 pe-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse back-back" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase active text-color ps-4" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./aboutus.html">Our
+                Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./event.html" id="mainDropdown"
+                role="button" aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="https://tx7.com/ADXC" target="_blank">Watch
+                    Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./methods.html">Methods
+                        of Victory</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4"
+                        href="./referring-judging.html">Referring and Judging</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4"
+                        href="./judging-criteria.html">Judging Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./athletes.html">Athletes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./joinus.html">Join
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./contact.html">Contact
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-" target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="scroll-to-top" id="scrollToTop">↑</div>
+  <!-- RULES SECTION START -->
+  <section class="p-md-5 my-sm-3 my-5">
+    <div class="container  my-md-5 adxc-5-blog p-sm-5">
+      <h2 class="text-uppercase danger-text">ADXC 4: Benoit Saint Denis, Espen Mathiesen, Ffion, Khaled, and all the
+        champions who rose in France</h2>
+      <div class="my-2">
+        <img class="img-fluid" src="./images/back-flag.jpg" alt="">
+      </div>
+      <p class="fw-bold">May 18, 2024</p>
+      <p>After weeks of anticipation, the ADXC 4 is now officially completed. This Saturday, May 18th, some of the best
+        competitors from Jiu-Jitsu and Grappling entered the merciless ADXC cage and fought tooth and nail to become the
+        newest champions born at the Dojo de Paris, in the capital of France.</p>
+      <p>In the Grappling Main Event, the long-awaited duel between UFC powerhouses Benoit Saint Denis and Marc Diakiese
+        gave fight fans everything they were hoping for and then some. Fighting in his homeland of France, Benoit used
+        his grappling prowess to control the flow of the battle and emerge victorious in the ADXC cage. The fight almost
+        ended quickly, with Benoit going for a neck attack and almost submitting in the very first round, but Diakiese’s
+        top-notch defenses got him out of danger and kept the bout going, with many standing exchanges throughout the
+        five rounds. But while Diakiese had some good moments, Benoit’s pressure was simply too much and the “God of
+        War” left another foe in the dust, taking the win by unanimous decision and driving the crowd at the Dojo de
+        Paris insane with the victory of their local champion.</p>
+      <p>Meanwhile, Espen Mathiesen spared no effort and is now a two-time champion of the ADXC. Fighting in the
+        Jiu-Jitsu Main Event against France’s Leon Larman, the Norwegian athlete played to his strength and started the
+        match by pulling and trying to use his berimbolo. Feeling the danger, Leon managed to avoid his opponent’s
+        collar grips, but Espen spun and ended up in the foot. Going for the de la riva guard, Espen managed to get a
+        better grip and got to the back, with Leon defending against the hooks but falling prey to a collar choke still
+        in the first round.</p>
+      <p>The Grappling Co-Main Event brought another victory for Wales’ Ffion Davies in the ADXC. After sweeping from
+        the closed guard and maintaining Morgan Black under complete pressure in the first round, Ffion finished the job
+        in the following one. When the fighting started again, Ffion pulled Morgan into her guard, went up reaching the
+        side, and quickly mounted, seizing her opponent’s arm and landing the winning armbar with a little over a minute
+        on the clock.</p>
+      <p>In the Jiu-Jitsu Co-Main Event, Khaled Al Shehhi and Leonardo Mario found themselves evenly matched throughout
+        the duel, which lasted five rounds of three minutes. Khaled started with a takedown, followed with a submission
+        attempt and, when that didn’t work, used the single-leg to press Leonardo against the cage wall. Leonardo
+        applied his pressure on Khaled’s guard, but the UAE powerhouse had a better run in the duel, using his technique
+        to attack on top and even reach the side. When it was all said and done, Khaled had shown enough of his skills
+        to convince the majority of the referees and conquer the title with a split decision.</p>
+      <div class="my-2">
+        <img class="img-fluid" src="./images/image-3.jpeg" alt="">
+      </div>
+      <p>While the Main and Co-Main Events were amazing in their own right, the ADXC 4 still had many impressive battles
+        in its card. Check out below how the Main Card and Prelims Card matches went down!</p>
+      <p class="fw-bold">Abdul-Kareem Al Sewady vs. Amin Ayoub</p>
+      <p>In another match-up between MMA athletes, Abdul-Kareem controlled the bout by putting pressure on Amin’s guard
+        throughout the first two rounds, even managing to mount in the third round. Amin tried to attack with a
+        guillotine, but Abdul-Kareem managed to avoid any danger and conquered the referees, who unanimously decided in
+        favor of the “Pride of Palestine”.</p>
+      <p class="fw-bold">Cassio Silva vs. Marko Oikarainen</p>
+      <p>In an intense rematch from the Abu Dhabi Grand Slam Rome 2024, the French-based Brazilian Cassio Silva once
+        again defeated Finland’s Marko Oikarainen. With triangle, arm, and omoplata attacks, Cassio was the most
+        dangerous competitor, even if Marko’s solid defenses kept him safe and sound in all three rounds. At the end of
+        the fight, Cassio tipped the scales even further in his favor with another dangerous attack, taking the win by
+        unanimous decision.</p>
+      <p class="fw-bold">Nathiely de Jesus vs. Elizabeth Mitrovic</p>
+      <p>A very balanced duel between Nathiely and Elizabeth. With an active guard and dangerous sweep attempts, Eliza
+        used her long legs to her favor against Nathiely, who used her experience and pressure from the top to control
+        the duel. Being more active in the bout, Nathiely tried to take the back and even attacked the arm, convincing
+        the referees and getting the win by unanimous decision.</p>
+      <p class="fw-bold">Nia Blackman vs. Magdalena Loska</p>
+      <p>A brown belt hailing from the UK, Nia Black showed her resolve as she sought to beat the Polish black belt
+        Magdalena Loska. Starting with the upper hand after attacking with a loop choke and an omoplata, Magdalena kept
+        herself active while Nia countered her foot attacks, with the latter almost taking the back on the second and
+        third rounds. With better moves from the guard and almost taking the back, Nia convinced the majority of the
+        referees and got the win via split decision.</p>
+      <p class="fw-bold">Steven Ray vs. Ibrahima Mane</p>
+      <p>In a duel between MMA veterans, Steven Ray proved himself an accomplished grappler. In the fight against
+        Ibrahima, Steven had the best moves in the first and second rounds, going for foot and guillotine attacks. In
+        the third round, with both fighters still standing, Steven set up another guillotine, took the fight to the
+        ground, and got the submission with 2:05 on the clock.</p>
+      <p class="fw-bold">Youness Bennouali vs. Florian Bayili</p>
+      <p>A brown belt fighting in his home country of France, Youness had an interesting duel against the Belgian black
+        belt Florian Bayili. Keeping steady on his feet, Youness controlled the match with some good takedowns and
+        submission attempts following the takedowns. Meanwhile, Florian employed his guard from below, but by the time
+        the match ended, Youness’ stamina and techniques were enough to convince the majority of the referees, who gave
+        him the win via split decision.</p>
+      <p class="fw-bold">Geovanny Martinez vs. Nicolas Renier</p>
+      <p>10th Planet’s Geo Martinez used his grappling experience to make quick work of Nicolas Renier in the ADXC 4.
+        The duel started with Geo pulling Nicolas into his closed guard and then quickly spinning around to reach the
+        legs, locking a lightning-fast heel hook in just 27 seconds of the very first round.</p>
+      <p class="fw-bold">Kalim Mastouri vs. Luca Anacoreta</p>
+      <p>An intense match between Kalim and Luca heated up the Prelims. With both sides dishing out attacks throughout
+        the three rounds of the duel, triangle chokes and leglocks were the name of the game here. One of the bout’s
+        highlights happened in the third round when Kalim took Luca down with a collar drag and almost took the back,
+        with the latter narrowly escaping the position. At the end of it all, the referees unanimously declared Kalim
+        the winner.</p>
+      <p class="fw-bold">Kasper Larsen vs. Alexander Alexandrov</p>
+      <p>Kasper Larsen maintained the pressure throughout the fight, using his weight and technique to attack
+        Alexander’s half-guard in the first two rounds. In the third round, after pushing Alexander against the cage
+        wall, Kasper got Alexander down and quickly went for the back without the hooks, spinning below and entering a
+        twister before locking the rear naked choke to take the victory.</p>
+      <p class="fw-bold">Shamma Al Kalbani vs. Lina Grosset</p>
+      <p>A well-balanced fight between purple belts Shamma Al Kalbani and Lina Grosset. With the former hailing from the
+        UAE and the latter fighting in her home country of France, the first round saw both athletes exchanging foot
+        attacks while the following one brought a little more movement, with reversals and guard passing attempts. The
+        third and final round saw Lina putting a lot of pressure from the top, but Shamma dished out some sneaky attacks
+        and, at the end of it all, managed to convince the majority of the referees, who gave her the win via split
+        decision.</p>
+      <p>ADXC 4</p>
+      <p>DOJO DE PARIS, PARIS – FRANCE</p>
+      <p>MAY 18, 2024</p>
+      <p>Main Event</p>
+      <p>Benoit Saint Denis defeated Marc Diakiese via unanimous decision</p>
+      <p>Espen Mathiesen defeated Leon Larman via collar choke (R1 2:03)</p>
+      <p>Co-Main Event</p>
+      <p>Ffion Davies defeated Morgan Black via armbar (R1 1:26)</p>
+      <p>Khaled Al Shehhi defeated Leonardo Mario via split decision</p>
+      <p>Main Card</p>
+      <p>Abdul-Kareem Al Sewady defeated Amin Youb via unanimous decision</p>
+      <p>Cassio Silva defeated Marko Oikarainen via unanimous decision</p>
+      <p>Nathiely de Jesus defeated Elizabeth Mitrovic via unanimous decision</p>
+      <p>Nia Blackman defeated Magdalena Loska via split decision</p>
+      <p>Steven Ray defeated Ibrahima Mane via guillotine (R3 2:05)</p>
+      <p>Preliminary Card</p>
+      <p>Youness Bennouali defeated Florian Bayili via split decision</p>
+      <p>Geo Martinez defeated Nicolas Renier via heel hook (R1 0:27)</p>
+      <p>Kalim Mastouri defeated Luca Anacoreta via unanimous decision</p>
+      <p>Kasper Larsen defeated Alexander Alexandrov via rear naked choke (R3 1:54)</p>
+      <p>Shamma Al Kalbani defeated Lina Grosset via split decision</p>
+    </div>
+  </section>
+  <!-- section end -->
+  <!-- footer start -->
+  <footer class="mt-5 pt-5">
+    <div class="touch-border">
+      <a href="./contact.html" class="btn btn-danger text-center" data-aos="fade-up" data-aos-delay="300">GET <span class="text-dark">IN TOUCH</span></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="d-flex justify-content-center">
+            <a href="" class="text-white text-decoration-none"><span><i class="fa-regular fa-envelope-open"></i></span>
+              INFO@ADXCWORLD.COM</a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="icons d-flex justify-content-center">
+            <a href="https://www.youtube.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.x.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="bg-white danger-text"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="d-flex justify-content-center">
+            <div class="me-3">
+              <img class="img-fluid" src="./images/ADCB-3.png" alt="">
+            </div>
+            <div class="me-3">
+              <img class="img-fluid" src="./images/Screenshot-2024-07-24-at-4.38.13 PM.png" alt="">
+            </div>
+            <div class="">
+              <img class="img-fluid" src="./images/EXPERIENCE-ABU-DHABI-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer end -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mainDropdown = document.getElementById('mainDropdown');
+      var mainDropdownIcon = document.getElementById('mainDropdownIcon');
+      var subDropdown = document.getElementById('subDropdown');
+      var subDropdownIcon = document.getElementById('subDropdownIcon');
+
+      // Toggle the main dropdown menu when the icon is clicked
+      mainDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = mainDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the main "Events" text
+      mainDropdown.addEventListener('click', function (event) {
+        if (event.target !== mainDropdownIcon) {
+          // Allow navigation when clicking on the "Events" text
+          window.location.href = './event.html';
+        }
+      });
+
+      // Toggle the submenu dropdown when the icon is clicked
+      subDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = subDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the "ADXC Rules" text
+      subDropdown.addEventListener('click', function (event) {
+        if (event.target !== subDropdownIcon) {
+          // Allow navigation when clicking on the "ADXC Rules" text
+          window.location.href = './adxc-rules.html';
+        }
+      });
+
+      // Close the dropdown when clicking outside
+      document.addEventListener('click', function (event) {
+        var isClickInsideMain = mainDropdown.contains(event.target);
+        var mainDropdownMenu = mainDropdown.nextElementSibling;
+
+        if (!isClickInsideMain && mainDropdownMenu.classList.contains('show')) {
+          mainDropdownMenu.classList.remove('show');
+        }
+
+        var isClickInsideSub = subDropdown.contains(event.target);
+        var subDropdownMenu = subDropdown.nextElementSibling;
+
+        if (!isClickInsideSub && subDropdownMenu.classList.contains('show')) {
+          subDropdownMenu.classList.remove('show');
+        }
+      });
+    });
+    // CLICK EVENT SCRIPT END
+
+    // SCROLL BUTTON SCRIPT START
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    };
+
+    scrollToTopBtn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    // SCROLL BUTTON SCRIPT
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // duration: 1200,
+      // delay: 200,
+      // offset: 100,
+      // once: true, 
+    });
+  </script>
+</body>
+
+</html>

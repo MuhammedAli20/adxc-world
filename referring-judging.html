@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/customstyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <title>REFEREEING-JUDGING</title>
+</head>
+
+<body class="black">
+  <!-- Desktop Header -->
+  <header id="desktop-head"
+    class="header  mt-2 d-flex align-items-center justify-content-between d-none d-md-flex d-lg-flex">
+    <div class="container header-container pb-1">
+
+      <!-- Left Navigation Links -->
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLeftContent"
+          aria-controls="navbarLeftContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLeftContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase  text-white" href="./aboutus.html">Our Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase text-white" href="./event.html" id="mainDropdown" role="button"
+                aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item text-uppercase text-center danger-text" href="https://tx7.com/ADXC" target="_blank">Watch Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item text-uppercase text-center danger-text" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item text-uppercase text-center danger-text" href="./methods.html">Methods of
+                        Victory</a>
+                    </li>
+                    <li><a class="dropdown-item active text-uppercase text-center danger-text"
+                        href="./referring-judging.html">Referring
+                        and Judging</a></li>
+                    <li><a class="dropdown-item text-uppercase text-center danger-text"
+                        href="./judging-criteria.html">Judging
+                        Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase  text-white" href="./athletes.html">Athletes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Logo in the Center -->
+      <div class="logo-center mx-auto pt-2">
+        <a href="./index.html">
+          <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+        </a>
+      </div>
+
+      <!-- Right Navigation Links -->
+      <nav class="navbar navbar-expand-lg ms-auto">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarRightContent" aria-controls="navbarRightContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRightContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./joinus.html">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-" target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Mobile Header -->
+  <header id="mobile-head"
+    class="header mt-2 d-flex back-color align-items-center justify-content-between d-lg-none d-md-none">
+    <!-- Toggle Button on the right -->
+    <nav class="navbar navbar-expand-lg navbar-light w-100 pb-0">
+      <div class="container-fluid p-0">
+        <div class="me-auto pb-2 ps-4">
+          <a href="./index.html">
+            <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+          </a>
+        </div>
+        <button class="navbar-toggler pb-2 pe-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse back-back" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./aboutus.html">Our
+                Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./event.html" id="mainDropdown"
+                role="button" aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="https://tx7.com/ADXC" target="_blank">Watch
+                    Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./methods.html">Methods
+                        of Victory</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase active text-color ps-4"
+                        href="./referring-judging.html">Referring and Judging</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4"
+                        href="./judging-criteria.html">Judging Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./athletes.html">Athletes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./joinus.html">Join
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./contact.html">Contact
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-" target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="scroll-to-top" id="scrollToTop">↑</div>
+  <!-- RULES SECTION START -->
+  <section class="p-md-5 my-3 mt-5 mt-sm-0">
+    <div class="container px-0 my-5">
+      <div class="judgement px-md-5 px-3 my-3">
+        <h2 class="text-white text-uppercase text-center">ADXC Rules & Refereeing</h2>
+        <p class="text-capitalize py-3 text-white">The ADXC Rules aim to provide a clear set of professional Grappling.
+          The framework of the rules was proposed and agreed upon by technical commission meetings and unanimously
+          adopted by the ADXC.</p>
+        <h5 class="text-uppercase text-white">TECHNICAL DEFINITIONS</h5>
+        <p class="text-capitalize pt-3 text-white">The ADXC Rules aim to provide a clear set of professional Grappling.
+          The Abu Dhabi Extreme Championship (ADXC) is an International Grappling sporting event featuring high-level
+          athletes from around the world from the prestigious AJP ranking system.</p>
+        <p class="text-capitalize  text-white">Grappling is a close range fighting technique that is used in a variety
+          of martial arts that involves grabbing and holding an opponent. It can involve clinch fighting, throws,
+          takedowns, and ground fighting. Grappling is an important element in martial arts and can be a useful skill
+          for self defence or for competition.</p>
+        <p class="text-capitalize text-white">There are basically 2 types of grappling Gi Grappling & NO-Gi Grappling.
+          The game has features from several different fighting forms such as:</p>
+        <ul class="custom-list">
+          <li>Judo</li>
+          <li>Sumo</li>
+          <li>Sambo</li>
+          <li>Ju-Jitsu</li>
+          <li>Brazilian Jiu-Jitsu (BJJ)</li>
+          <li>Wrestling (Freestyle and Greco-Roman)</li>
+          <li>Submission grappling</li>
+        </ul>
+        <p class="text-capitalize text-white">The ADXC brings together many of the greatest grappling fighters in
+          history for memorable, competitive, and entertaining fights around the world.The top athletes that will fight
+          for the first ADXC Titles will be selected and invited by the AJP, according to their results in the last Abu
+          Dhabi World Pro, Abu Dhabi Grand Slams and Continental Championships and representation within the sport as a
+          role model. Their charisma and posture both inside and outside the mats as well as their schedule availability
+          will also be taken into account.</p>
+        <h5 class="text-uppercase text-white">THE MAIN RULES OF ADXC:</h5>
+        <ol class="number-list">
+          <li>Judging criteria</li>
+          <li>Fouls</li>
+          <li>Weight Classes Divisions</li>
+          <li>Fight Time</li>
+          <li>Fighting Area</li>
+          <li>Athlete Uniform and Equipment</li>
+        </ol>
+        <h5 class="text-uppercase py-3 text-white">1. JUDGING CRITERIA</h5>
+        <ul class="custom-list">
+          <li>Round winner will be decided under a 10 point must system similar to mixed martial arts (MMA) bouts.</li>
+          <li>If there is a submission at any time the match will end.</li>
+          <li>In the eventuality of the athletes arriving in a 50/50 situation the match will restart in the standing
+            position.</li>
+          <li>Matches will be officiated under the latest version of the AJP Rules but without utilising its point
+            system.</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">REFEREEING AND JUDGING</h5>
+        <p class="text-capitalize pb-3 text-white">All bouts will be evaluated and scored by 3 Judges and 1 Referee who
+          shall evaluate the contest from different locations around the fighting area according to the agreed rules of
+          the commission.</p>
+        <p class="text-capitalize pb-3 text-white">The contests will be refereed by AJP International Referees and Judge
+          Committee with ADXC rules in accordance with the Refereeing Rules of the AJP.</p>
+        <h5 class="text-uppercase py-3 text-white">TYPES OF CONTEST RESULTS</h5>
+        <h5 class="text-uppercase pb-3 text-white">METHODS OF VICTORY</h5>
+        <h5 class="text-uppercase pb-3 text-white">1. Submission (SUB):</h5>
+        <ul class="custom-list">
+          <li>Physical or verbal tap out by one of dozens of methods of submission.</li>
+          <li>When the Referee stops the contest due to injury or unconsciousness due to a submission.</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">2. Knockout or Technical Knockout:</h5>
+        <ul class="custom-list">
+          <li>When an Athlete is knocked unconscious due to an impact from a legal technique. (KO)</li>
+          <li>The referee stops the contest due to an impact from a legal technique. (TKO)</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">3. Disqualification (DQ):</h5>
+        <ul class="custom-list">
+          <li>When an athlete commits a foul that leads to the referee stopping the contest.</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">Stopping the Contest</h5>
+        <p class="text-capitalize  text-white">The referee is the sole arbiter of a contest and is the only individual
+          authorized to stop a contest.</p>
+        <p class="text-capitalize  text-white">The referees may take advice from the matside physician and/or the
+          Commission with respect to the decision to stop a contest.
+        </p>
+        <p class="text-capitalize  text-white">The referees and the matside physician are the only individuals
+          authorized to enter the fighting area at any time during competition other than the rest periods and
+          subsequent to the contest ending.
+        </p>
+        <h5 class="text-uppercase py-3 text-white">4. Judges’ Decision</h5>
+        <ul class="custom-list2">
+          <li>When a fight is not finished by a submission, knockout or disqualification, the judges will deliver their
+            scorecards for a final decision.</li>
+          <li> <b>Unanimous Decision</b> – When all three judges score the contest for the same contestant.</li>
+          <li> <b>Majority Decision</b> – – When two judges score the contest for one contestant and the third scores
+            the contest a draw.</li>
+          <li> <b>Split Decision</b> – When two judges score the contest for one contestant and one judge scores for the
+            opponent.</li>
+          <li> <b>Split Draw</b> – When one judge scores the contest for one contestant, one scores it for the other,
+            and the third scores it a draw.</li>
+          <li> <b>Majority Draw</b> –When two judges score the contest as a draw and the third scores it for one of the
+            fighters.</li>
+          <li> <b>Unanimous Draw</b> –When all three judges score the contest as a draw.</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">5. No Decision / Withdraw / Walkover </h5>
+        <ul class="custom-list2">
+          <li>A fighter can forfeit the match before the fight if they are injured and unable to fight.</li>
+          <li>If both fighters continually break the rules or if one fighter is injured unintentionally by an illegal
+            action, a no contest can be called. </li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">2. FOULS</h5>
+        <a href="https://adxcworld.com/adxc-rules/judging-criteria/" target="_blank"
+          class="text-white text-capitalize  text-decoration-none">adxc judging criteria/scoring</a>
+        <h5 class="text-uppercase py-3 text-white">3. WEIGHT CLASS DIVISIONS</h5>
+        <ul class="custom-list2">
+          <li>Except with the approval of the AJP Commission, or its executive director, the classes for the contests
+            and the weights for the event may consist of title disputes in the following weight classes:</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">GI</h5>
+        <ul class="custom-list">
+          <li>MEN’S LIGHTWEIGHT (UP TO 69 KG)</li>
+          <li>MEN’S WELTERWEIGHT (UP TO 77 KG)</li>
+          <li>MEN’S MIDDLEWEIGHT (UP TO 85 KG)</li>
+          <li>MEN’S HEAVYWEIGHT (UP TO 120 KG)</li>
+          <li>WOMEN’S LIGHTWEIGHT (UP TO 55 KG)</li>
+          <li>WOMEN’S MIDDLEWEIGHT (UP TO 70 KG)</li>
+          <li>WOMEN’S HEAVYWEIGHT (UP TO 95 KG)</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">GRAPPLING</h5>
+        <ul class="custom-list">
+          <li>MEN’S LIGHTWEIGHT (UP TO 69 KG)</li>
+          <li>MEN’S WELTERWEIGHT (UP TO 77 KG)</li>
+          <li>MEN’S MIDDLEWEIGHT (UP TO 85 KG)</li>
+          <li>MEN’S HEAVYWEIGHT (UP TO 120 KG)</li>
+          <li>WOMEN’S LIGHTWEIGHT (UP TO 55 KG)</li>
+          <li>WOMEN’S MIDDLEWEIGHT (UP TO 70 KG)</li>
+          <li>WOMEN’S HEAVYWEIGHT (UP TO 95 KG)</li>
+        </ul>
+        <p class="text-capitalize  text-white">In championship fights, the participants must weigh no more than that
+          permitted for the relevant weight division.</p>
+        <p class="text-capitalize  text-white">*The fighters will eventually receive Title Belt, Trophy, Medals and Cash
+          Prize by weight class.</p>
+        <h5 class="text-uppercase py-3 text-white">4. FIGHT TIME</h5>
+        <ul class="custom-list">
+          <li>Prelims and Main Card matches will be decided in 3 rounds of 3 minutes (1 minute rest between rounds).
+          </li>
+          <li>Main Event and Co Main Event matches will be decided in 5 rounds of 3 minutes (1 minute rest between
+            rounds).</li>
+        </ul>
+        <h5 class="text-uppercase py-3 text-white">5. FIGHTING AREA REQUIREMENTS</h5>
+        <ul class="custom-list">
+          <li>The fighting area contests will be held in a cage platform.
+          </li>
+          <li>A cage area used for a contest must be no smaller than 9 meters.</li>
+          <li>One corner shall have a blue designation and the corner directly opposite shall have a red designation.
+          </li>
+        </ul>
+        <p class="text-capitalize  text-white">The 750 square foot ADXC Cage measures 9m (30 feet) across and 1,85m (6
+          feet) high, and was created with both safety and fairness in mind. Its walls and padded surfaces protect
+          fighters from falling out or being thrown out.</p>
+        <ul class="custom-list">
+          <li>Diameter 9m (30 ft.)</li>
+          <li>Floor height 1m (3.2 ft.)</li>
+          <li>Wide catwalk 1m (3.2 ft.)</li>
+          <li>Floor padding 3cm</li>
+        </ul>
+        <p class="text-capitalize  text-white">The standard cage has a diameter of 30 ft. (9.1m) with a 6 ft. (1.8m)
+          high fence.The cage sits atop a platform, raising it 4 ft. (1.2m) from the ground. It has foam padding around
+          the top of the fence and between each of the eight sections. It also has two entry-exit gates opposite each
+          other. The mat, painted with sponsorship logos and art, is replaced for each event.
+        </p>
+        <h5 class="text-uppercase py-3 text-white">6. SPECIFICATIONS FOR GI AND NO-GI GRAPPLING APPAREL AND APPEARANCE
+        </h5>
+        <ul class="custom-list">
+          <li>Gis should be Black, Blue or White, and each contestant shall have two Gis of same color (Red corner:
+            White color a must, blue corner: blue or black GI).</li>
+          <li>Shirts are prohibited during competition except for rash guards provided by the Commission.</li>
+          <li>For No-Gi Grappling contests each contestant shall wear NO-Gi shorts (board shorts) or other shorts
+            approved by the Commission.</li>
+          <li>Each combatant must be clean and present a tidy appearance.</li>
+          <li>A Fighter may not wear any jewelry or other piercing accessories while competing in the contest.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer start -->
+  <footer class="mt-5 pt-5">
+    <div class="touch-border">
+      <a href="./contact.html" class="btn btn-danger text-center" data-aos="fade-up" data-aos-delay="300">GET <span class="text-black">IN TOUCH</span></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="d-flex justify-content-center">
+            <a href="" class="text-white text-decoration-none"><span><i class="fa-regular fa-envelope-open"></i></span>
+              INFO@ADXCWORLD.COM</a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="icons d-flex justify-content-center">
+            <a href="https://www.youtube.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.x.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="bg-white danger-text"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="d-flex justify-content-center">
+            <div class="me-3">
+              <img class="img-fluid" src="./images/ADCB-3.png" alt="">
+            </div>
+            <div class="me-3">
+              <img class="img-fluid" src="./images/Screenshot-2024-07-24-at-4.38.13 PM.png" alt="">
+            </div>
+            <div class="">
+              <img class="img-fluid" src="./images/EXPERIENCE-ABU-DHABI-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer end -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mainDropdown = document.getElementById('mainDropdown');
+      var mainDropdownIcon = document.getElementById('mainDropdownIcon');
+      var subDropdown = document.getElementById('subDropdown');
+      var subDropdownIcon = document.getElementById('subDropdownIcon');
+
+      // Toggle the main dropdown menu when the icon is clicked
+      mainDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = mainDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the main "Events" text
+      mainDropdown.addEventListener('click', function (event) {
+        if (event.target !== mainDropdownIcon) {
+          // Allow navigation when clicking on the "Events" text
+          window.location.href = './event.html';
+        }
+      });
+
+      // Toggle the submenu dropdown when the icon is clicked
+      subDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = subDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the "ADXC Rules" text
+      subDropdown.addEventListener('click', function (event) {
+        if (event.target !== subDropdownIcon) {
+          // Allow navigation when clicking on the "ADXC Rules" text
+          window.location.href = './adxc-rules.html';
+        }
+      });
+
+      // Close the dropdown when clicking outside
+      document.addEventListener('click', function (event) {
+        var isClickInsideMain = mainDropdown.contains(event.target);
+        var mainDropdownMenu = mainDropdown.nextElementSibling;
+
+        if (!isClickInsideMain && mainDropdownMenu.classList.contains('show')) {
+          mainDropdownMenu.classList.remove('show');
+        }
+
+        var isClickInsideSub = subDropdown.contains(event.target);
+        var subDropdownMenu = subDropdown.nextElementSibling;
+
+        if (!isClickInsideSub && subDropdownMenu.classList.contains('show')) {
+          subDropdownMenu.classList.remove('show');
+        }
+      });
+    });
+    // CLICK EVENT SCRIPT END
+
+    // SCROLL BUTTON SCRIPT START
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    };
+
+    scrollToTopBtn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    // SCROLL BUTTON SCRIPT
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // duration: 1200,
+      // delay: 200,
+      // offset: 100,
+      // once: true, 
+    });
+  </script>
+</body>
+
+</html>

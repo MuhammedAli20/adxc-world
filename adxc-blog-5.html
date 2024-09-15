@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="css/customstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <title>ADXC-5</title>
+</head>
+
+<body>
+  <!-- Desktop Header -->
+  <header id="desktop-head"
+    class="header bg-dark mt-2 d-flex align-items-center justify-content-between d-none d-md-flex d-lg-flex">
+    <div class="container header-container pb-1">
+
+      <!-- Left Navigation Links -->
+      <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarLeftContent"
+          aria-controls="navbarLeftContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarLeftContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase  text-white" href="./aboutus.html">Our Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-uppercase text-white" href="./event.html" id="mainDropdown" role="button"
+                aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item text-uppercase text-center danger-text" href="https://tx7.com/ADXC" target="_blank">Watch Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item text-uppercase text-center danger-text" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item text-uppercase text-center danger-text" href="./methods.html">Methods of
+                        Victory</a>
+                    </li>
+                    <li><a class="dropdown-item text-uppercase text-center danger-text"
+                        href="./referring-judging.html">Referring
+                        and Judging</a></li>
+                    <li><a class="dropdown-item text-uppercase text-center danger-text"
+                        href="./judging-criteria.html">Judging
+                        Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./athletes.html">Athletes</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Logo in the Center -->
+      <div class="logo-center mx-auto pt-2">
+        <a href="./index.html">
+          <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+        </a>
+      </div>
+
+      <!-- Right Navigation Links -->
+      <nav class="navbar navbar-expand-lg ms-auto">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarRightContent" aria-controls="navbarRightContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarRightContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-2">
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./joinus.html">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase text-white" href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-" target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Mobile Header -->
+  <header id="mobile-head"
+    class="header mt-2 d-flex back-color align-items-center justify-content-between d-lg-none d-md-none">
+    <!-- Toggle Button on the right -->
+    <nav class="navbar navbar-expand-lg navbar-light w-100 pb-0">
+      <div class="container-fluid p-0">
+        <div class="me-auto pb-2 ps-4">
+          <a href="./index.html">
+            <img src="./images/logo-white_edited_edited.webp" alt="Logo" width="100">
+          </a>
+        </div>
+        <button class="navbar-toggler pb-2 pe-4" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse back-back" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase active text-color ps-4" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./aboutus.html">Our
+                Story</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./event.html" id="mainDropdown"
+                role="button" aria-expanded="false">
+                Events <span class="dropdown-toggle" id="mainDropdownIcon"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="mainDropdown">
+                <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="https://tx7.com/ADXC" target="_blank">Watch
+                    Now</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./adxc-rules.html"
+                    id="subDropdown" role="button" aria-expanded="false">
+                    ADXC Rules <span class="dropdown-toggle" id="subDropdownIcon"></span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="subDropdown">
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4" href="./methods.html">Methods
+                        of Victory</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4"
+                        href="./referring-judging.html">Referring and Judging</a></li>
+                    <li><a class="dropdown-item mobile-nav text-uppercase text-color ps-4"
+                        href="./judging-criteria.html">Judging Criteria</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./athletes.html">Athletes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./joinus.html">Join
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="./contact.html">Contact
+                Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile-nav text-uppercase text-color ps-4" href="https://tickets.virginmegastore.me/ae/sports/25426/abu-dhabi-extreme-championship-6-adxc6-" target="_blank">Get Your Ticket</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="scroll-to-top" id="scrollToTop">↑</div>
+  <!-- RULES SECTION START -->
+  <section class="p-md-5 my-sm-3 my-5">
+    <div class="container  my-md-5 adxc-5-blog p-sm-5">
+      <h2 class="text-uppercase danger-text">ADXC 5: Urijah Faber, Rayron Gracie, and all the champions who rose in Abu
+        Dhabi</h2>
+      <div class="my-2">
+        <img class="img-fluid" src="./images/faber-bibiano-adxc-5.jpg" alt="">
+      </div>
+      <p class="fw-bold">August 2, 2024</p>
+      <p>Marking the organization’s first return home to the UAE in six months, the fifth edition of the Abu Dhabi
+        Extreme Championship took place this Friday, August 2nd. After putting on memorable shows in Brazil and France,
+        the ADXC cage is now back to the modern Mubadala Arena, bringing some of the best names from both Jiu-Jitsu and
+        MMA to show their grappling skills. As always, fans around the world could check all the thrilling matches at
+        the modern <a class="text-decoration-none" href="https://tx7.com/">TX7.com</a> platform.</p>
+      <p>After 14 incredible battles in this evening’s card, fight fans are still recovering from the thrills of the
+        competition. In the Grappling Main Event, Urijah Faber showed his stamina as he fought and defeated Bibiano
+        Fernandes nearly twenty years after their first encounter in MMA. Tapping into his wrestling background to
+        thwart Bibiano’s attacks, Urijah worked better from the top as he put pressure on his opponent’s guard. The
+        Brazilian had some good moments as he managed to land a few takedowns and sweeps, but Urijah’s skills shined
+        even from the bottom as he used a deep half-guard and crucifix to earn valuable points in the bout. In the end,
+        The California Kid conquered the ADXC cage via unanimous decision.</p>
+      <p>“I love Bibiano. This guy changed the lives of many athletes along his career and he’s also very hard to
+        submit”, complimented Urijah.”I felt good fighting in the cage once again. If you’re looking for something to
+        change your life, look for martial arts. Abu Dhabi is doing the right thing by investing in something like
+        Jiu-Jitsu.”</p>
+      <div class="my-2">
+        <img class="img-fluid" src="./images/image-1.jpeg" alt="">
+      </div>
+      <p>Meanwhile, the Jiu-Jitsu Main Event saw Rayron Gracie add another ADXC win to his name, once again via
+        submission. Facing Marcos Carrozzino, who started the bout very aggressively, Rayron not only avoided his
+        opponent’s attacks but also kept looking for a chance to land his own submission. After defending himself from a
+        guillotine attempt, Rayron used a canto choke, which consists of a collar choke with leg pressure, to submit his
+        opponent with two seconds left in the second round. When asked about the move, Rayron revealed how his uncle’s
+        experience played a key role in his victory.</p>
+      <p>“I know everything is going well when Renzo is by my side. My first loop choke was on, but Marcos escaped
+        really well. The guillotine he threw at me was really tight, but I knew he would put everything on that so I
+        managed to defend and bounce back. Five minutes before the match, Renzo told me to use the Canto Choke around 40
+        seconds before the end of the round. I did it because even if Renzo asked me to do a backflip, I would do it.”
+      </p>
+      <p>In the Grappling Co-Main Event, Chad Mendes had his wrestling background shining bright in the ADXC cage as he
+        overpowered Diego Brandão, who accepted a last-minute invite and joined the tournament’s roster during the fight
+        week. Showcasing his strength with snap downs, positional control, and good arm drag and double-leg entries,
+        Chad was calling the shots throughout the five rounds of the match as he dished out takedowns and even some
+        dangerous guillotine attempts. Diego managed a takedown of his own in the second round, but Chad’s relentless
+        pressure got him the title via unanimous decision.</p>
+      <p>As for the Jiu-Jitsu Co-Main Event, A very technical battle between Pedro Ramalho and Max Lindblad saw the
+        former taking the title in the UAE. With both fighting styles being very similar, the competitors exchanged
+        grips and attacks while defending any dangerous positions. Pedro stood out with good sweeps and an especially
+        dangerous foot attack, while Max got his moment in the spotlight with a toe-hold attempt that landed him on top.
+        At the end of it all, Pedro “Paquito” Ramalho got the win via split decision.</p>
+      <p>While the Main and Co-Main Events had the attending crowd on the edge of their seats, the Main and Preliminary
+        Cards were not behind when it came to action. Check out below how each of the matches played out.</p>
+      <p class="fw-bold">August 2, 2024</p>
+      <p class="fw-bold">Pouya Rahmani vs Hamdy Abdelwahab</p>
+      <p>Another stellar display of power and technique by Iranian Pouya Rahmani in the ADXC cage. This time facing
+        Hamdy Abdelwahab, it didn’t take long for Pouya to takedown with a single-leg and go for the back, completely
+        dominating his opponent and outstretching his arms for the crowd before ultimately sliding his arms under the
+        neck and getting the win with a choke from the back.</p>
+      <p class="fw-bold">Davi Vetoraci vs Amin Boudhina</p>
+      <p>Davi Vetoraci left no room for doubts when it comes to his skills in the ADXC. Debuting in the organization
+        against the Tunisian Amin Boudhina, Davi went all-out from the start and attacked with a very dangerous flying
+        triangle and then shifted to an armbar attempt, which Amin defended. Later on, Davi feinted an omoplata and,
+        when Amin spun to escape, locked the winning armbar.</p>
+      <p class="fw-bold">Jonnatas Gracie vs Burak Sarman</p>
+      <p>A lot of movement in the duel between Brazilian representative Jonnatas Gracie and Australia’s Burak Sarman.
+        While Burak showed a lot of agility in the cage as he dished out flying triangle and armbar attempts, in
+        addition to a couple of dangerous leglocks, the experienced Jonnatas used his pressure from the top and
+        controlled the match, taking the back and even mounting. When the clock ran out, the referees unanimously gave
+        Jonnatas his third win in the organization.</p>
+      <p class="fw-bold">Felipe Bezerra vs Vladimir Blium</p>
+      <p>In a duel of heavyweights, Felipe Bezerra showed ADXC fight fans why he’s consistently conquered the gold in
+        the main AJP tournaments. With Vladimir Blium playing from half-guard, Felipe put his pressure to work from the
+        top, passing the guard multiple times and even mounting to take the win via unanimous decision.</p>
+      <p class="fw-bold">Ruan Alvarenga vs AJ Agazarm</p>
+      <p>A great match for Ruan Alvarenga as he conquered the win over the experienced AJ Agazarm. The fight began with
+        AJP making entries in the single-leg while Ruan used an arm drag to get the single. In one of AJ’s attempts,
+        Ruan sprawled and attacked with a guillotine, highlighting his strategic nature in the duel. While avoiding his
+        opponent’s takedown attempts, Ruan worked well from the top, mounted twice on the second and third rounds, and
+        attempted to submit with a kata-gatame and triangle in the final stretch. When it came down to the referees,
+        Ruan got the win via unanimous decision.</p>
+      <p class="fw-bold">Preliminary Card</p>
+      <p class="fw-bold">Omar Al Suwaidi vs Samuel Marquez</p>
+      <div class="my-2">
+        <img class="img-fluid" src="./images/image-2.jpeg" alt="">
+      </div>
+      <p>In a high-octane match from beginning to end, the Emirati Omar Al Suwaidi conquered a mighty victory in his
+        homeland. With Samuel Marquez working from the guard, Omar kept a high pace throughout the duel, taking the back
+        and attempting a choke in the first round, jumping to attack the arm in the second round, and a choke attempt
+        followed by a beautiful tomoe nage in the final moments of the third round. At the end of it all, it was no
+        surprise that Omar got the win via unanimous decision.</p>
+      <p class="fw-bold">Seilkhan Bolatbek vs Emad Ahmedin</p>
+      <p>A quick win for Seilkhan Bolatbek in his second ADXC fight. Facing Emad Ahmedin, Seilkhan refused to let his
+        opponent work from the guard and got up after being pulled, quickly jumping to the back, locking his legs, and
+        ending the bout with a cross face.</p>
+      <p class="fw-bold">Zaifeiria Panagiotarakou vs Yara Kakish</p>
+      <p>Greece representative Zaifeiria Panagiotarakou showed her skillset with a first-round submission in the ADXC.
+        The match started with a lot of action as both competitors refused to go down, but after the fight was restarted
+        from the center of the cage, Zaifeiria went for the single-leg and quickly got to the back, using her firm grip
+        on the collar to choke and conquer the title in Abu Dhabi.</p>
+      <p class="fw-bold">Abe Alsaghir vs Xiaosong Shi</p>
+      <p>Fully using the cage to his advantage, Abe Alsaghir got the win over Xiaosong Shi, with the latter trying to
+        work from the guard while the former strategically used the cage walls to exert an incredible amount of pressure
+        on his opponent. Xiaosong had some good moments in the match, like a particularly dangerous guillotine choke
+        attempt in the second round, but Abe avoided any dangerous moves and maintained the pressure to emerge
+        victorious with a unanimous decision.</p>
+      <p class="fw-bold">Balqees Al Hashmi vs Maria Odintsova</p>
+      <div class="my-2">
+        <img class="img-fluid" src="./images/image.jpeg" alt="">
+      </div>
+      <p>Opening the night of competition, the Emirati Balqees Al Hashmi dominated her match against Maria Odintsova.
+        Making full use of her guard, Balqees stayed in control the whole time, dishing out some promising attacks and
+        using her positional control to keep her opponent under pressure at all times. When the duel came to an end,
+        Balqees got the win via unanimous decision.</p>
+      <p class="fw-bold fs-2">ADXC 5</p>
+      <p class="fw-bold">Abu Dhabi, UAE</p>
+      <p class="fw-bold">August 2nd, 2024</p>
+      <p class="text-decoration-underline">Main Event</p>
+      <p>Urijah Faber defeated Bibiano Fernandes via unanimous decision</p>
+      <p>Rayron Gracie defeated Marcos Carrozzino via canto choke (R2 2:58)</p>
+      <p class="text-decoration-underline">Co-Main Event</p>
+      <p>Chad Mendes defeated Diego Brandão via unanimous decision</p>
+      <p>Pedro Ramalho defeated Max Lindblad split decision</p>
+      <p class="text-decoration-underline">Main Card</p>
+      <p>Pouya Rahmani defeated Hamdy Abdelwahab via choke from the back (R1 2:03)</p>
+      <p>Davi Vetoraci defeated Amin Boudhina via armbar (R1 2:31)</p>
+      <p>Jonnatas Gracie defeated Burak Sarman via unanimous decision</p>
+      <p>Felipe Bezerra defeated Vladimir Blium via unanimous decision</p>
+      <p>Ruan Alvarenga defeated AJ Agazarm via unanimous decision</p>
+      <p class="fw-bold">Preliminary Card</p>
+      <p>Omar Al Suwaidi defeated Samuel Marquez via unanimous decision</p>
+      <p>Seilkhan Bolatbek defeated Emad Ahmedin via cross face (R1 1:03)</p>
+      <p>Zaifeiria Panagiotarakou defeated Yara Kakish via one-handed RNC (R1 1:13)</p>
+      <p>Abe Alsaghir defeated Xiaosong Shi via unanimous decision</p>
+      <p>Balqees Al Hashmi defeated Maria Odintsova via unanimous decision</p>
+    </div>
+  </section>
+
+  <!-- footer start -->
+  <footer class="mt-5 pt-5">
+    <div class="touch-border">
+      <a href="./contact.html" class="btn btn-danger text-center" data-aos="fade-up" data-aos-delay="300">GET <span class="text-black">IN TOUCH</span></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mt-5">
+          <div class="d-flex justify-content-center">
+            <a href="" class="text-white text-decoration-none"><span><i class="fa-regular fa-envelope-open"></i></span>
+              INFO@ADXCWORLD.COM</a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="icons d-flex justify-content-center">
+            <a href="https://www.youtube.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.x.com" target="_blank" class="bg-white danger-text me-2"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="bg-white danger-text"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-12 my-3">
+          <div class="d-flex justify-content-center">
+            <div class="me-3">
+              <img class="img-fluid" src="./images/ADCB-3.png" alt="">
+            </div>
+            <div class="me-3">
+              <img class="img-fluid" src="./images/Screenshot-2024-07-24-at-4.38.13 PM.png" alt="">
+            </div>
+            <div class="">
+              <img class="img-fluid" src="./images/EXPERIENCE-ABU-DHABI-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer end -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var mainDropdown = document.getElementById('mainDropdown');
+      var mainDropdownIcon = document.getElementById('mainDropdownIcon');
+      var subDropdown = document.getElementById('subDropdown');
+      var subDropdownIcon = document.getElementById('subDropdownIcon');
+
+      // Toggle the main dropdown menu when the icon is clicked
+      mainDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = mainDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the main "Events" text
+      mainDropdown.addEventListener('click', function (event) {
+        if (event.target !== mainDropdownIcon) {
+          // Allow navigation when clicking on the "Events" text
+          window.location.href = './event.html';
+        }
+      });
+
+      // Toggle the submenu dropdown when the icon is clicked
+      subDropdownIcon.addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent navigation
+        var dropdownMenu = subDropdown.nextElementSibling;
+        if (dropdownMenu.classList.contains('dropdown-menu')) {
+          dropdownMenu.classList.toggle('show');
+        }
+      });
+
+      // Prevent the dropdown from opening when clicking the "ADXC Rules" text
+      subDropdown.addEventListener('click', function (event) {
+        if (event.target !== subDropdownIcon) {
+          // Allow navigation when clicking on the "ADXC Rules" text
+          window.location.href = './adxc-rules.html';
+        }
+      });
+
+      // Close the dropdown when clicking outside
+      document.addEventListener('click', function (event) {
+        var isClickInsideMain = mainDropdown.contains(event.target);
+        var mainDropdownMenu = mainDropdown.nextElementSibling;
+
+        if (!isClickInsideMain && mainDropdownMenu.classList.contains('show')) {
+          mainDropdownMenu.classList.remove('show');
+        }
+
+        var isClickInsideSub = subDropdown.contains(event.target);
+        var subDropdownMenu = subDropdown.nextElementSibling;
+
+        if (!isClickInsideSub && subDropdownMenu.classList.contains('show')) {
+          subDropdownMenu.classList.remove('show');
+        }
+      });
+    });
+    // CLICK EVENT SCRIPT END
+
+    // SCROLL BUTTON SCRIPT START
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+
+    window.onscroll = function () {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    };
+
+    scrollToTopBtn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    // SCROLL BUTTON SCRIPT
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // duration: 1200,
+      // delay: 200,
+      // offset: 100,
+      // once: true, 
+    });
+  </script>
+</body>
+
+</html>
